@@ -11,9 +11,27 @@ import nltk
 from nltk.corpus import stopwords
 from sklearn.metrics import silhouette_score, calinski_harabasz_score
 
-# Load your dataset
-data_path = "/Users/blackrider/Yandex.Disk.localized/Applied ML/assignments/assignment 3/abstracts_2000_2024.csv"  # Your actual data path
-raw_abstracts = pd.read_csv(data_path)
+# Sample dataset creation
+data = {
+    'abstract': [
+        "This study investigates the effects of Lyme disease on public health.",
+        "Research on tick biology and its role in disease transmission.",
+        "An overview of diagnostic methods for Lyme disease.",
+        "The impact of climate change on tick populations.",
+        "Understanding immune responses to Borrelia burgdorferi.",
+        "A review of spirochete infections and their treatment.",
+        "Clinical trials for Lyme disease vaccines.",
+        "Patient outcomes following Lyme disease treatment.",
+        "The ecology of Lyme disease and its vectors.",
+        "Educational programs for Lyme disease awareness."
+    ]
+}
+
+# Convert to DataFrame
+raw_abstracts = pd.DataFrame(data)
+
+# Rest of your original code follows...
+
 
 # Download stopwords from NLTK if not already downloaded
 nltk.download('stopwords')
