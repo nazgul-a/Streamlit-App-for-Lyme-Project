@@ -1,6 +1,18 @@
-This is an example of a Streamlit app for interactive purposes that helps to present insights from Data Science Analysis. This one was used to explore potential features that could've been discovered in research regarding Controversies in a Medical Dispute around Lyme Disease, using tools like Word Cloud, LDA Topic Modeling, and Clustering.
+# 🧪 Lyme Disease Controversy Explorer (Streamlit App)
 
-I've included for you all the source code and synthetic data used in other files in this repository.
+## 🌟 Project Overview  
+This is an interactive **Streamlit app** designed to showcase how insights from text data can be explored visually.  
+It uses **Word Clouds, LDA Topic Modeling, and Clustering** to simulate research into controversies surrounding Lyme disease, based on synthetic abstracts.  
 
-To try out the App itself, please follow the link:
-https://lymeanalysisapp-pqjhfx2j5xmdykbxzjo7ya.streamlit.app/ 
+👉 Try the live app here: [Lyme Disease Explorer](https://lymeanalysisapp-pqjhfx2j5xmdykbxzjo7ya.streamlit.app/)
+
+## 🔑 Key Features  
+- Word Cloud generation from synthetic abstracts  
+- LDA Topic Modeling for latent themes  
+- Clustering to group similar abstracts  
+- Interactive exploration in the Streamlit interface  
+
+
+## 🔗 Related Work  
+This app **complements my ML analysis of Lyme disease classification**, where I applied clustering and feature exploration techniques to scientific abstracts.  
+👉 See the full analysis here: [Clustering-and-Feature-Exploration-on-Scientific-Abstracts](https://github.com/nazgul-a/Clustering-and-Feature-Exploration-on-Scientific-Abstracts)  
